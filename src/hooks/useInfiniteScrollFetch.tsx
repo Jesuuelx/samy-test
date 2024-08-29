@@ -45,7 +45,7 @@ const useInfiniteScrollFetch = () => {
   const { search = "", page: initialPage = 1 } = queryString.parse(
     location.search
   );
-  const [page, setPage] = useState<number>(initialPage as number);
+  const [page, setPage] = useState<number>(Number(initialPage));
   const [value, setValue] = useState<string>(search as string);
   const [isFiltering, setIsFiltering] = useState(false);
 
