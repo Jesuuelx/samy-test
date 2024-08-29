@@ -60,7 +60,7 @@ export const WrapperMain = styled.div<{ isfilter: boolean }>`
   }
 
   @media screen and (min-width: 768px) {
-    .container {
+    .wrapper__main {
       max-width: 1500px;
     }
 
