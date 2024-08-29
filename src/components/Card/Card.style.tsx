@@ -89,7 +89,7 @@ export const WrapperCard = styled.div`
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-      width: 330px;
+      width: 300px;
     }
 
     span {
